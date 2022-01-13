@@ -1,12 +1,12 @@
 import React from 'react';
-import CatIndex from './CatIndex';
  
-const CatList = (props) => {
+const CatList = (props) => { //maps over the array and returns it
 
  return (
    <div className='main'>
      <div className='mainDiv'>
-     {props.cats.map(cat => <li>{cat}</li> )}
+       {/* maps over props and displays it */}
+     {props.cats.map(cat => <li>{cat}</li> )} 
    </div>
    </div>
  )

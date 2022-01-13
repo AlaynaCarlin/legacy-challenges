@@ -1,11 +1,11 @@
-import React from 'react';
-import {Container} from 'reactstrap';
-import DogIndex from './DogIndex';
+import React from 'react'; //import react
+import {Container} from 'reactstrap';// 
+import DogIndex from './DogIndex';//
  
-const Dogs = () => {
+const Dogs = () => { //functional component
 
-  return (
-    <Container className="App">
+  return ( 
+    <Container className="App"> 
       <br />
       <h1 className="App-intro">
         For this challenge, write the logic to accomplish the following:
@@ -19,6 +19,7 @@ const Dogs = () => {
         <li>Make sure to include some good practice error handling</li>
       </ul>
       <hr />
+      {/* calling dogindex component to display it */}
       <DogIndex />
     </Container>
   );

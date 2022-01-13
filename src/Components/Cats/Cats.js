@@ -1,6 +1,6 @@
 import React from 'react';
-import CatIndex from './CatIndex'
-import { Container } from 'reactstrap';
+import CatIndex from './CatIndex' // imports the component
+import { Container } from 'reactstrap'; // imports the react component
  
 const Cats = () => {
    return (
@@ -19,7 +19,8 @@ const Cats = () => {
          <li>Ensure there are no errors</li>
         </ul>
         <hr /> */}
-       <CatIndex />
+        {/* DISPLAYS THE COMPONENT */}
+       <CatIndex /> 
      </Container>
    );
 
